@@ -263,7 +263,7 @@ class GalleryByReactApp extends React.Component {
         left: halfStageW - halfImgW,
         top: halfStageH - halfImgH
       }
-      //计算左侧,右侧区域图片排布的取值范围
+          //计算左侧,右侧区域图片排布的取值范围
     this.Constant.hPosRange.leftSecX[0] = -halfImgW;
     this.Constant.hPosRange.leftSecX[1] = halfStageW - halfImgW * 3;
 
